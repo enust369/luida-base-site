@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="LUIDA BASE logo">
+  <rect width="512" height="512" rx="96" fill="#fffdf8"/>
+  <circle cx="256" cy="256" r="224" fill="#fffdf8" stroke="#222" stroke-width="16"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#222" stroke-width="5"/>
+  <text x="256" y="118" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="2" fill="#222">BOARD GAME SPACE</text>
+  <g fill="#fffdf8" stroke="#222" stroke-width="10" stroke-linejoin="round">
+    <path d="M256 160 340 206 256 252 172 206Z"/>
+    <path d="M172 206 256 252 256 356 172 310Z"/>
+    <path d="M340 206 256 252 256 356 340 310Z"/>
+  </g>
+  <g fill="#222">
+    <circle cx="256" cy="206" r="11"/>
+    <circle cx="210" cy="272" r="12"/>
+    <circle cx="230" cy="316" r="12"/>
+    <circle cx="304" cy="272" r="12"/>
+    <circle cx="282" cy="310" r="12"/>
+    <circle cx="322" cy="328" r="12"/>
+  </g>
+  <text x="256" y="408" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="900" fill="#222">LUIDA</text>
+  <text x="256" y="462" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="900" fill="#222">BASE</text>
+</svg>
