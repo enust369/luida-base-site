@@ -1,3 +1,16 @@
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+
+const resetInitialScroll = () => {
+  if (!window.location.hash) {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }
+};
+
+resetInitialScroll();
+window.addEventListener("pageshow", resetInitialScroll);
+
 const header = document.querySelector("[data-header]");
 const nav = document.querySelector("[data-nav]");
 const toggle = document.querySelector("[data-nav-toggle]");
